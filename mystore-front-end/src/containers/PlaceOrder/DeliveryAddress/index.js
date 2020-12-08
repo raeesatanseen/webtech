@@ -17,7 +17,7 @@ const DeliveryAddress = props => {
                         />
                         <div>
                             <p className="AddressAuthor">{address.fullName} {address.mobileNumber}</p>
-                           {/*} <p className="AuthorAddress">{address.address}, {address.cityDistrictTown}, {address.state} - {address.pinCode}</p>*/}
+                           
                         </div>
                     </div>
                 </div>

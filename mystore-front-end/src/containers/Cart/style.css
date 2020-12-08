@@ -11,6 +11,8 @@
 .CardTitle{
     padding: 10px 20px;
     border-bottom: 1px solid #cecece;
+    background-color: #098080;
+    color:#FFF;
 }
 .FinalBilling{
     padding: 20px;
@@ -23,7 +25,7 @@
 
 .PlaceOrder{
     width: 100%;
-    background: #fff;
+    background: rgb(77, 74, 74);
     box-shadow: 0 0 15px 0px #c3c2c2;
     margin-top: 20px;   
     display: flex;
@@ -34,7 +36,8 @@
 
 .PlaceOrderButton{
     border: 0;
-    outline: none;
+    outline:black;
+    outline-style: solid;
     background:  #098080;
     color: #fff;
     font-weight: bold;

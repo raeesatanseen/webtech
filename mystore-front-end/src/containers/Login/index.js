@@ -93,6 +93,7 @@ class Login extends Component {
         
 
         return (
+            <div className="Page">
             <div className="LoginContainer">
                 <div className="WelcomeText">
                     <h3>Login</h3>
@@ -138,6 +139,7 @@ class Login extends Component {
                 </div>
                 
                 
+            </div>
             </div>
         );
     }

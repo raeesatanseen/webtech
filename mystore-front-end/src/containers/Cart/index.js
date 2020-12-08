@@ -51,20 +51,6 @@ class Cart extends Component{
 
     changeQuantity = (e, productId) => {
 
-        // console.log(e.target.value);
-
-        // if(isNaN(e.target.value)){
-        //     return;
-        // }
-
-        // const firstDigit = parseInt(e.target.value.split("")[0]);
-        // if(firstDigit === 0){
-        //     return;
-        // }
-
-        // //alert(e.target.value);
-
-        // this.updateCart(productId, parseInt(e.target.value));
     }
 
     componentDidMount() {

@@ -129,6 +129,7 @@ class Signup extends Component {
        }
 
         return (
+            <div className="Page">
             <div className="LoginContainer">
                 <div className="WelcomeText">
                     <h3>Signup</h3>
@@ -199,6 +200,7 @@ class Signup extends Component {
                 </div>
                 
                 
+            </div>
             </div>
         );
     }

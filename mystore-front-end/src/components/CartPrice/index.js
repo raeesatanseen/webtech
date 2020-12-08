@@ -16,12 +16,7 @@ const CartPrice = props => {
                         <p>Price ({props.cart.cartCount})</p>
                         <p>Rs.{props.cart.totalAmount}</p>
                     </div>
-                    {/*
-                    <div className="Row">
-                        <p>Delivery</p>
-                        <p>Rs.0</p>
-                    </div>
-                    */}
+                    {}
                     <hr />
                     <div className="Row">
                         <h4>Total Payable</h4>

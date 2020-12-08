@@ -86,15 +86,7 @@ class Orders extends Component{
                                             <a href="#">{order._id}</a>
                                         </div>
                                         <div className="OrderDescription">
-                                            {/*}
-                                            <div className="od1">
-                                                <p className="odtitle">Delivery Address</p>
-                                                <p>{`${order.address.address} ${order.address.cityDistrictTown} ${order.address.state} - ${order.address.pinCode}`}</p>
-                                            </div>
-                                            .od1{
-    width: 40%;
-}
-                                */}
+                                            {}
                                             <div className="od2">
                                                 <p className="odtitle">Payment Type</p>
                                                 <a className="odp">{order.paymentType}</a>

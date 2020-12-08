@@ -4,9 +4,11 @@
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
+    background-color:white
 }
 .TopMenu{
     position: relative;
+    background-color:white;
 }
 .Dropdown.Account{
     width: 150px;

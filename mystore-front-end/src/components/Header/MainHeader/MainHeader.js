@@ -13,17 +13,6 @@ const MainHeader = props => {
         <div className="MainHeader">
             <Logo />
             <div>
-                <div className="SearchOption">
-                    <select>
-                        <option>All Categories</option>
-                    </select>
-                    <input type="text" />
-                    <button>
-                        <i className="fas fa-search"></i>
-                    </button>
-                </div>
-            </div>
-            <div>
                 <Link to="/cart"><i className="fas fa-shopping-cart"></i>({props.cartCount})</Link>
                 
             </div>

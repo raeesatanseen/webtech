@@ -2,6 +2,7 @@
 .BottomHeader{
     display: flex;
     justify-content: center;
+    background-color:rgb(51,47,47);
 }
 .Menu{
     display: flex;
@@ -29,11 +30,8 @@
     float: left;
     width: 100%;
 }
-/* .Dropdown > .Column{
-    
-} */
 .Menu .MenuItem > a{
-    color: #333;
+    color: white;
     text-decoration: none;
 }
 .MenuItem:hover > .Dropdown{
@@ -41,12 +39,3 @@
     opacity: 1;
 }
 
-.Dropdown > li > ul > li{
-    margin: 5px 0;
-}
-.Dropdown > li > ul > li > a{
-    color: #666;
-}
-.Dropdown > li > ul > li > a:hover{
-    text-decoration-line: underline;
-}

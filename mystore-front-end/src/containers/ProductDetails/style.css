@@ -1,5 +1,7 @@
 .ProductDetailsWrapper{
     display: flex;
+    background-color: rgb(51, 47, 47);
+    color:white
 }
 .ProductDetailsWrapper > .ProductDetailsImage{
     width: 400px;
@@ -47,7 +49,7 @@
 
 .Path > small{
     font-size: 14px;
-    color: #666;
+    color: white
 }
 .ProductTitle{
     font-size: 20px;

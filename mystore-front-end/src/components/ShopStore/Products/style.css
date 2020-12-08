@@ -21,13 +21,16 @@
 .ProductArea{
     display: flex;
     flex-wrap: wrap;
+    background-color: #098080;
 }
 .Product{
     width: 250px;
+    height:400px;
     border: 1px solid #cecece;
+    border-spacing: 10px;
     border-radius: 5px;
     text-align: center;
-    margin: 0 10px 10px 0;   
+    background-color: rgb(51,47,47);   
 }
 .Product > .ProductImage{
     width: 80%;
@@ -41,14 +44,16 @@
 }
 .ProductDetails{
     margin: 20px 0;
+    color:white
 }
 
 .ContentBody{
     display: flex;
+    background-color: #098080;
 }
 .ContentBody .SideMenu{
     flex: 2;
-    background: #098080;
+    background:white;
 }
 .ContentBody .MainContent{
     flex: 8;
@@ -63,18 +68,22 @@
     border-bottom: 1px solid #cecece;
     padding: 5px 10px;
     color: #fff;
+    text-align: center;
+    background-color: rgb(51,47,47);
 }
 .Filter .FilterTitle{
     font-size: 16px;
     font-weight: bold;
     padding: 5px 10px;
     color: #fff;
+    text-align: center;
+    background-color: rgb(51,47,47);
 }
 .SideMenu .Categories {
-    background-color: #eee;
+    background-color:#098080;
 }
 .SideMenu ul{
-    position: relative;
+    position: relative;    
 }
 .SideMenu ul li{
     margin-left: 10px;
@@ -82,9 +91,10 @@
 }
 .SideMenu > ul > li > a:nth-of-type(1){
     font-weight: bold;
+    color:white;
 }
 .FilterButton{
-    background: #eee;
+    background: #098080;
     border: 1px solid #cecece;
     width: 95%;
     margin: 2px 5px;

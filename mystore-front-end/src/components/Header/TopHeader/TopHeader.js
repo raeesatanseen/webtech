@@ -26,14 +26,7 @@ class TopHeader extends Component{
 
         return (
             <div className="TopHeader">
-               <div> {/*
-                <div className="SocialMediaIcons">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-google-plus-g"></i>
-                    <i className="fab fa-instagram"></i>
-                    <i className="fab fa-youtube"></i>
-                </div>
-                */}
+               <div> {}
                 </div>
                 <div>
                     <ul className="TopMenu">

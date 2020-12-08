@@ -106,7 +106,7 @@ class ProductDetails extends Component{
                         </div>
                         <div className="ProductDetails">
                             <div className="Path">
-                                <small>Home > Upcoming Events</small>
+                                <small>Home>Upcoming Events</small>
                             </div>
                             <p className="ProductTitle">{product.name}</p>
                             <p className="ProductPrice">Rs.{product.price}</p>

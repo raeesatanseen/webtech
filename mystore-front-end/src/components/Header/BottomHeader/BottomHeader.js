@@ -28,7 +28,6 @@ class BottomHeader extends Component{
 
     categoryTree(categories){
 
-        //console.log(categories);
 
         var categoriesAr = [];
         for(var value of categories){
